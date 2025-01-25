@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button.delete-button,
+button.cancel-button {
+    background-color: #ff4d4f;
+    color: white;
+}
+
+button.delete-button:hover,
+button.cancel-button:hover {
+    background-color: #e43e3e;
+}
+
+button.edit-button,
+button.save-button {
+    background-color: #4caf50;
+    color: white;
+}
+
+button.edit-button:hover,
+button.save-button:hover {
+    background-color: #3e8e41;
+}
+
+.add-button {
+    display: inline-block;
+    margin: 10px 0;
+    background-color: #4caf50;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.add-button:hover {
+    background-color: #3e8e41;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+li a {
+    margin-right: auto;
+    color: #333;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+textarea {
+    min-height: 50px;
+    resize: vertical;
+    overflow: auto;
+}
